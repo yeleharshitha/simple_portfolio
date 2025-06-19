@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equic="'X-UA-Compatible" content="IE=edge">
+        <meta name - "viewport" content="width=device-width,initial-scale=1.0">
+        <title>
+           Personal portfolio website
+        </title>
+        <link rel = "stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul>
+                        <li><a href="#header"> Home</a></li>
+                        <li><a href="#about"> About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <p>Student</p>
+                    <h1> Hi Everyone, <br>
+                        I am<span> Harshitha</span> from India</span></h1>
+                </div>
+            </div>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I am a dedicated Computer Science undergraduate currently pursuing my B.Tech, with 
+                            a strong interest in the core principles of computing, programming, and technology-driven problem-solving. 
+                            Throughout my academic journey, I have built a solid theoretical foundation in data structures,
+                            algorithms, operating systems, and object-oriented programming. I have a deep curiosity about
+                            how technology shapes the world, and I am committed to continuously learning and improving my skill set.</p>
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links " onclick="opentab('education')">Education</p>
+                                <p class="tab-links " onclick="opentab('experenice')">Experenice</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>Python</span><br>Built python project</li>
+                                    <li><span>Web Development</span><br>Web App Development</li>
+                                    <li><span>Java</span><br>OOPs through Java</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2023-current</span><br>Btech from VVITU</li>
+                                    <li><span>2021-2023</span><br>Inter from Narayana</li>
+                                    <li><span>2015-2021</span><br>High school from Narayana</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experenice">
+                                <ul>
+                                    <li><span>No Experenice</span><br>I am currently pursuing my btech<br>I will complete my graduation in 2027<br></li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Services-->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My services</h1>
+                <div class="services-list">
+                    <div>
+                        <img src="images/code.png" class="code">
+                        <h2><b>Web Design</b></h2>
+                        <p>Creative and responsive website design using modern tools 
+                            to build visually appealing and user-friendly web experiences.</p>
+                        <a href="#"> Learn more!</a> 
+                     </div>
+                     <div>
+                        <img src="images/report.png" class="report">
+                        <h2><b>Technical documentation/ report writing</b></h2>
+                        <p>Clear and structured technical writing for projects, reports, and
+                         software documentation tailored to both technical and non-technical audiences.</p>
+                        <a href="#"> Learn more!</a> 
+                     </div>
+                     <div>
+                        <img src="images/teachings.png" class="teaching">
+                        <h2><b>Tutoring for school/college subjects</b></h2>
+                        <p> Personalized tutoring to simplify complex concepts in math, science, 
+                            and programming, helping students excel academically.</p>
+                        <a href="#"> Learn more!</a> 
+                     </div>
+                </div>
+            </div>
+        </div>
+       <!--------portfolio---->
+       <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                 <div class="work">
+                    <img src="images/work.png">
+                    <div class="layer">
+                        <h3>Decision tree algorithm and parameter tuning for classification. </h3>
+                        <p>Decision trees are versatile algorithms used in machine learning that perform classification and regression tasks. 
+                            They can even handle multi-output tasks for various predictive modeling tasks.</p>
+                            <a href="#"><img src="images/link.png" target="_blank"></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work3.png">
+                    <div class="layer">
+                        <h3>ML codes</h3>
+                        <p>Efficient and well-documented machine learning code for tasks like data analysis, model building, and prediction using Python and popular ML libraries.
+                            Ideal for academic projects, research, or real-world problem solving with AI.</p>
+                            <a href="#"><img src="images/link.png" target="_blank"></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.png">
+                    <div class="layer">
+                        <h3>Python Project</h3>
+                        <p> a Flask-based to-do list web app. The application includes tasks with a 'due time' field, and you're implementing an alert sound functionality that notifies the user when a task is due.</p>
+                            <a href="#"><img src="images/link.png" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more!</a>
+        </div>
+       </div>
+       <!----contact-->
+       <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact-Me</h1>
+                    <p> <img src="images/email.png" class="email">Harshitha@example.com</p>
+                    <p><img src="images/phone.png" class="phone">23456789</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" class="facebook"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png"class=insta></a>
+                        <a href="https://in.linkedin.com/" target="_blank"><img src="images/linkedin.png" class="linkedin"></a>
+                    </div>
+                    <a href="images/harshitha_cv.pdf" download  class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email-Id" placeholder="your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> "2025 copyright © Harshitha.All rights reserved"</p>
+        </div>
+       </div>
+        <script>
+            
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+
+
+
+        </script>
+    </body>
+</html>
